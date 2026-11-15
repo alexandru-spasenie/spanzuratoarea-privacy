@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spânzurătoarea / Hangman – Politica de confidențialitate / Privacy Policy</title>
+<style>
+  :root { --bg: #fbf7ef; --text: #2b2118; --muted: #6b5d4f; --accent: #a8621a; --line: #e4d8c5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1d1914; --text: #eee5d8; --muted: #b5a690; --accent: #e9a24f; --line: #3a3229; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+  h3 { font-size: 1rem; margin: 20px 0 4px; }
+  p, li { margin: 6px 0; }
+  ul { padding-left: 22px; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); margin: 0 0 16px; }
+  .langs { display: flex; gap: 12px; margin: 16px 0 8px; }
+  .langs a { padding: 6px 14px; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+</style>
+</head>
+<body>
+<main>
+
+<nav class="langs" aria-label="Limba / Language">
+  <a href="#ro">Română</a>
+  <a href="#en">English</a>
+</nav>
+
+<!-- ======================================================== ROMÂNĂ -->
+<section id="ro" lang="ro">
+<h1>Politica de confidențialitate – Spânzurătoarea</h1>
+<p class="meta">Aplicația „Spânzurătoarea” (în engleză „Hangman”), pachet Android com.digitalife.spanzuratoarea, și versiunea pentru iOS<br>
+Ultima actualizare: 15 noiembrie 2026</p>
+
+<p>Această politică explică ce date sunt prelucrate când joci Spânzurătoarea, de ce, cu cine sunt împărțite
+și ce drepturi ai. Operatorul datelor este dezvoltatorul aplicației, Alexandru Spasenie (Digitalapps,
+denumit mai jos „noi”). Ne poți contacta la <a href="mailto:alexandruspasenie@gmail.com">alexandruspasenie@gmail.com</a>.</p>
+
+<h2>1. Ce date prelucrăm</h2>
+<h3>Contul de joc</h3>
+<ul>
+  <li>La prima pornire, jocul îți creează automat un cont anonim prin Firebase Authentication (Google).
+      Nu îți cerem nume real, e-mail, telefon sau parolă.</li>
+  <li>Contului îi sunt asociate un identificator generat aleator, porecla ta (implicit „Jucător nou”, sau cea pe care
+      o alegi în meniu) și numărul de galbeni.</li>
+  <li>Versiunile mai vechi ale jocului cereau o adresă de e-mail și o parolă pentru „Lanțul trofic”. Dacă ai folosit
+      o astfel de versiune, adresa rămâne asociată contului tău până ne ceri ștergerea.</li>
+</ul>
+<h3>Lanțul trofic (clasamentul)</h3>
+<ul>
+  <li>Porecla și numărul de galbeni sunt salvate în Cloud Firestore (Google Firebase) și sunt vizibile celorlalți
+      jucători în clasament.</li>
+</ul>
+<h3>Parte-n parte (cuvinte puse pentru ceilalți)</h3>
+<ul>
+  <li>Când pui un cuvânt pentru ceilalți jucători, se salvează cuvântul, limba lui, porecla ta și identificatorul contului.
+      Cuvântul și porecla sunt vizibile celorlalți jucători.</li>
+  <li>Când ghicești cuvântul altui jucător, se salvează rezultatul tău (numărul de stele) împreună cu identificatorul
+      contului, iar autorul cuvântului vede câți l-au ghicit.</li>
+  <li>Nu scrie în cuvinte sau în poreclă informații personale.</li>
+</ul>
+<h3>Reclame</h3>
+<ul>
+  <li>Jocul afișează reclame prin Google AdMob. AdMob poate colecta identificatorul de publicitate al dispozitivului,
+      adresa IP (din care se poate deduce o locație aproximativă), informații despre dispozitiv și despre interacțiunea
+      cu reclamele, precum și date de diagnostic.</li>
+  <li>În Spațiul Economic European, Regatul Unit și Elveția îți cerem consimțământul la prima pornire (prin platforma
+      de consimțământ a Google). Fără consimțământ, se afișează doar reclame nepersonalizate. Îți poți schimba alegerea
+      ștergând datele aplicației din setările telefonului: la următoarea pornire ți se cere din nou. Poți reseta oricând
+      sau dezactiva identificatorul de publicitate din setările Android.</li>
+</ul>
+<h3>Statistici de utilizare</h3>
+<ul>
+  <li>Prin Google Analytics for Firebase se colectează automat date de utilizare (de exemplu prima pornire, scenele
+      deschise, durata sesiunilor, tipul dispozitivului, versiunea aplicației, țara aproximativă), folosite ca să înțelegem
+      cum e folosit jocul și să-l îmbunătățim. Firebase Remote Config ne ajută să schimbăm unele setări ale jocului
+      fără o actualizare.</li>
+</ul>
+<h3>Date păstrate pe telefon</h3>
+<ul>
+  <li>Progresul (galbeni, niveluri, cuvântul zilei, seriile), setările (limbă, sunet, muzică, vibrații) și porecla sunt
+      păstrate pe dispozitiv. Dacă backup-ul Google e pornit pe telefon, Android le poate salva în contul tău Google,
+      împreună cu contul anonim, ca să le recuperezi la reinstalare sau pe un telefon nou. Acest backup e gestionat
+      de Google, conform setărilor tale.</li>
+  <li>Notificarea pentru bonusul zilnic este programată local, pe telefon; o poți opri din setările telefonului.</li>
+</ul>
+<p>Jocul nu are cumpărături în aplicație și nu accesează contacte, fotografii, microfon sau locația precisă.</p>
+
+<h2>2. De ce le prelucrăm (temeiul legal)</h2>
+<ul>
+  <li><strong>Furnizarea jocului</strong> (cont, progres, clasament, cuvintele puse pentru ceilalți) – executarea
+      contractului (art. 6 alin. 1 lit. b GDPR).</li>
+  <li><strong>Reclame personalizate</strong> și stocarea/accesarea informațiilor pe dispozitiv – consimțământul tău
+      (art. 6 alin. 1 lit. a), acolo unde legea îl cere.</li>
+  <li><strong>Reclame nepersonalizate, statistici, prevenirea fraudei și securitate</strong> – interesul nostru legitim
+      de a finanța și îmbunătăți jocul (art. 6 alin. 1 lit. f).</li>
+</ul>
+
+<h2>3. Cu cine împărțim datele</h2>
+<p>Nu vindem datele tale. Le folosim împreună cu acești furnizori, care le prelucrează conform propriilor politici:</p>
+<ul>
+  <li>Google (Firebase, AdMob, Google Analytics, Google Play) –
+      <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>;
+      cum folosește Google datele din aplicațiile partenere:
+      <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></li>
+  <li>Partenerii de publicitate ai Google, listați în fereastra de consimțământ.</li>
+</ul>
+<p>Unii furnizori pot transfera date în afara Spațiului Economic European (de exemplu în SUA), cu garanțiile prevăzute
+de lege (clauze contractuale standard sau cadrul UE–SUA privind protecția datelor).</p>
+
+<h2>4. Cât timp păstrăm datele</h2>
+<ul>
+  <li>Datele contului, clasamentului și cuvintele puse pentru ceilalți sunt păstrate cât timp folosești jocul.
+      Dacă ne ceri ștergerea, le ștergem în cel mult 30 de zile.</li>
+  <li>Datele colectate de Google (reclame, statistici) sunt păstrate conform politicilor Google.</li>
+</ul>
+
+<h2 id="stergere-date">5. Drepturile tale (inclusiv ștergerea datelor)</h2>
+<p>Ai dreptul de acces, rectificare, ștergere, restricționare, portabilitate și opoziție, precum și dreptul de a-ți
+retrage oricând consimțământul, fără a afecta prelucrarea făcută până atunci. Pentru ștergerea contului și a datelor
+de joc, scrie-ne la <a href="mailto:alexandruspasenie@gmail.com">alexandruspasenie@gmail.com</a> și menționează porecla
+din joc. Poți depune și o plângere la Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal
+(<a href="https://www.dataprotection.ro">www.dataprotection.ro</a>).</p>
+
+<h2>6. Copii</h2>
+<p>Spânzurătoarea este un joc de cuvinte, dar nu cerem date de identificare și nu colectăm cu bună știință date personale
+de la copii sub 16 ani dincolo de cele descrise mai sus. Consimțământul pentru reclame personalizate trebuie dat de un
+părinte sau tutore dacă jucătorul are sub 16 ani. Dacă ești părinte și crezi că am prelucrat datele copilului tău,
+scrie-ne și le ștergem.</p>
+
+<h2>7. Securitate</h2>
+<p>Datele sunt transmise criptat (HTTPS) și stocate pe infrastructura Google Firebase, cu reguli care permit fiecărui
+jucător să-și modifice doar propriile date. Niciun sistem nu e complet sigur, dar luăm măsuri rezonabile ca să le protejăm.</p>
+
+<h2>8. Modificări</h2>
+<p>Putem actualiza această politică. Versiunea curentă e publicată mereu pe această pagină, cu data ultimei actualizări.</p>
+</section>
+
+<hr>
+
+<!-- ======================================================== ENGLISH -->
+<section id="en" lang="en">
+<h1>Privacy Policy – Hangman</h1>
+<p class="meta">The app “Hangman” (in Romanian “Spânzurătoarea”), Android package com.digitalife.spanzuratoarea, and its iOS version<br>
+Last updated: 15 November 2026</p>
+
+<p>This policy explains what data is processed when you play Hangman, why, who it is shared with and what rights you have.
+The data controller is the app's developer, Alexandru Spasenie (Digitalapps, “we” below). You can contact us at
+<a href="mailto:alexandruspasenie@gmail.com">alexandruspasenie@gmail.com</a>.</p>
+
+<h2>1. What data we process</h2>
+<h3>Game account</h3>
+<ul>
+  <li>On first launch the game automatically creates an anonymous account for you through Firebase Authentication (Google).
+      We do not ask for your real name, email, phone number or a password.</li>
+  <li>The account holds a randomly generated identifier, your nickname (“New player” by default, or the one you choose in
+      the menu) and your number of coins.</li>
+  <li>Older versions of the game asked for an email address and a password for the “Food chain”. If you used such a version,
+      that address stays linked to your account until you ask us to delete it.</li>
+</ul>
+<h3>Food chain (leaderboard)</h3>
+<ul>
+  <li>Your nickname and number of coins are stored in Cloud Firestore (Google Firebase) and other players can see them in the
+      leaderboard.</li>
+</ul>
+<h3>Words for other players</h3>
+<ul>
+  <li>When you put up a word for other players, the word, its language, your nickname and your account identifier are stored.
+      Other players can see the word and your nickname.</li>
+  <li>When you guess another player's word, your result (number of stars) is stored with your account identifier, and the
+      word's author sees how many players guessed it.</li>
+  <li>Please do not put personal information in words or in your nickname.</li>
+</ul>
+<h3>Ads</h3>
+<ul>
+  <li>The game shows ads through Google AdMob. AdMob may collect the device's advertising ID, IP address (from which an
+      approximate location can be inferred), device information, information about your interaction with ads, and diagnostic
+      data.</li>
+  <li>In the European Economic Area, the UK and Switzerland we ask for your consent on first launch (through Google's consent
+      platform). Without consent, only non-personalised ads are shown. You can change your choice by clearing the app's data in
+      your phone's settings: you are asked again on the next launch. You can reset or turn off the advertising ID in your
+      Android settings at any time.</li>
+</ul>
+<h3>Usage statistics</h3>
+<ul>
+  <li>Google Analytics for Firebase automatically collects usage data (for example first launch, screens opened, session length,
+      device type, app version and approximate country), which we use to understand how the game is played and to improve it.
+      Firebase Remote Config lets us change some game settings without an update.</li>
+</ul>
+<h3>Data kept on your phone</h3>
+<ul>
+  <li>Your progress (coins, levels, word of the day, streaks), settings (language, sound, music, vibration) and nickname are kept
+      on your device. If Google backup is turned on, Android may save them to your Google account, together with the anonymous
+      account, so you get them back after a reinstall or on a new phone. That backup is run by Google according to your settings.</li>
+  <li>The daily bonus notification is scheduled locally on your phone; you can turn it off in your phone's settings.</li>
+</ul>
+<p>The game has no in-app purchases and does not access your contacts, photos, microphone or precise location.</p>
+
+<h2>2. Why we process it (legal basis)</h2>
+<ul>
+  <li><strong>Providing the game</strong> (account, progress, leaderboard, words for other players) – performance of a contract
+      (Art. 6(1)(b) GDPR).</li>
+  <li><strong>Personalised ads</strong> and storing/accessing information on your device – your consent (Art. 6(1)(a)),
+      where the law requires it.</li>
+  <li><strong>Non-personalised ads, statistics, fraud prevention and security</strong> – our legitimate interest in funding and
+      improving the game (Art. 6(1)(f)).</li>
+</ul>
+
+<h2>3. Who we share it with</h2>
+<p>We do not sell your data. We use it with these providers, who process it under their own policies:</p>
+<ul>
+  <li>Google (Firebase, AdMob, Google Analytics, Google Play) –
+      <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>;
+      how Google uses data from partner apps:
+      <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></li>
+  <li>Google's advertising partners, listed in the consent message.</li>
+</ul>
+<p>Some providers may transfer data outside the European Economic Area (for example to the US), with the safeguards the law
+requires (standard contractual clauses or the EU–US Data Privacy Framework).</p>
+
+<h2>4. How long we keep it</h2>
+<ul>
+  <li>Account and leaderboard data and the words you put up are kept while you use the game. If you ask us to delete them,
+      we do so within 30 days.</li>
+  <li>Data collected by Google (ads, statistics) is kept under Google's policies.</li>
+</ul>
+
+<h2 id="delete-data">5. Your rights (including deleting your data)</h2>
+<p>You have the right to access, correct, delete, restrict and port your data and to object to its processing, and you can
+withdraw your consent at any time without affecting processing done before. To delete your account and game data, email
+<a href="mailto:alexandruspasenie@gmail.com">alexandruspasenie@gmail.com</a> with your in-game nickname. You can also complain to
+your local data protection authority (in Romania: <a href="https://www.dataprotection.ro">www.dataprotection.ro</a>).</p>
+
+<h2>6. Children</h2>
+<p>Hangman is a word game, but we do not ask for identifying information and do not knowingly collect personal data from
+children under 16 beyond what is described above. Consent to personalised ads must be given by a parent or guardian if the
+player is under 16. If you are a parent and believe we processed your child's data, contact us and we will delete it.</p>
+
+<h2>7. Security</h2>
+<p>Data is sent encrypted (HTTPS) and stored on Google Firebase infrastructure, with rules that let each player change only
+their own data. No system is perfectly secure, but we take reasonable measures to protect it.</p>
+
+<h2>8. Changes</h2>
+<p>We may update this policy. The current version is always published on this page, with its last-updated date.</p>
+</section>
+
+</main>
+</body>
+</html>
